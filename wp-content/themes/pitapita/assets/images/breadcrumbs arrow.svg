@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>breadcrumbs arrow</title>
+    <g id="Final-designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02.Locations" transform="translate(-346.000000, -371.000000)" fill="#1C1C1A" fill-rule="nonzero">
+            <g id="title" transform="translate(290.000000, 252.000000)">
+                <path d="M61.4912927,124.317373 L57.8567799,127.951867 C57.6814913,128.127155 57.3973042,128.127155 57.2220343,127.951867 L56.7981288,127.527961 C56.6231394,127.352972 56.6228028,127.069365 56.7973807,126.893964 L59.6777953,123.999991 L56.7973807,121.106036 C56.6228028,120.930635 56.6231394,120.647028 56.7981288,120.472039 L57.2220343,120.048133 C57.3973229,119.872845 57.68151,119.872845 57.8567799,120.048133 L61.491274,123.682627 C61.6665626,123.857897 61.6665626,124.142084 61.4912927,124.317373 Z" id="breadcrumbs-arrow"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,48 @@
+/*
+Theme Name: PitaPita
+Author: IndiaNIC
+Author URI: http://www.indianic.com
+Text Domain: pitapita
+Version: 1.5
+Author URI: https://www.indianic.com/
+Theme URI: https://www.indianic.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/ 
+
+.textslider{
+  transform: translateY(50px);
+   opacity: 0; 
+   animation: 1s slideUp ease forwards calc((var(--n) - 1) * 0.1s);
+
+     transform: translateY(150%);
+
+}
+/*.textslider:hover span{
+	transform: translateY(0) scale(2);
+}
+.textslider span:nth-child(1) {
+  --n: 1;
+}
+
+.textsliderspan:nth-child(2) {
+  --n: 2;
+}
+
+.textslider span:nth-child(3) {
+  --n: 3;
+}
+
+.textslider span:nth-child(4) {
+  --n: 4;
+}*/
+@keyframes slideUp {
+	0%{
+	    transform: translateY(150%);	
+	}
+  100% {
+   transform: translateY(0) scale(2);
+    opacity: 1;
+
+  }
+}

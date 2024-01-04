@@ -1,0 +1,383 @@
+@media only screen and (min-width: 1450px) {
+    .container {max-width: 1380px; } 
+    .catering-extra .small-title {margin-bottom: 54px; }
+    .rewarding{background-size: 170px;}
+    /*catering Page*/
+    .contact-locations .option .location-name { font-size: 26px; }
+    .contact-locations .location-address, .contact-locations .location-mobile-no {font-size: 20px; line-height: 30px; margin-bottom: 15px; }
+}
+@media only screen and (max-width: 1400px) and (min-width: 992px){
+
+ .right-nav .order-now {
+    margin-left: 20px;
+    padding: 0 20px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+}
+}
+@media only screen and (min-width: 1024px) {
+    /*header section*/
+    .custom-header .navbar .navbar-nav .nav-link:hover:before,
+    .right-nav ul li a:hover:before {width: 100%; }
+    .custom-header .navbar .navbar-nav .nav-link:before,
+    .right-nav ul li a:before {content: ""; height: 2px; background: #08495D; position: absolute; bottom: 0; left: 0; width: 0; transition: all ease 0.2s; }
+    /*help page*/
+    .full-name>label {display: inline-block; width: calc(50% - 10px); }
+    .full-name>br {display: none; }
+    .full-name>label:first-child {margin-right: 15px; }
+    .popup-overlay .block-title {font-size: 32px; line-height: 38px; }
+    /*About us page*/
+    .about-img-outer img {max-width: 100%; height: 600px; width: 100%; max-height: initial; transition: all ease-in 0.2s; object-fit: cover; object-position: center; }
+}
+@media only screen and (max-width: 1400px){
+    /*catering page*/
+    .plate-name{font-size: 16px}
+    .table-menu tbody td {padding: 15px 0; }
+    .table-menu{margin-top: 24px;}
+    .plates-services {margin-bottom: 5px;}
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px){
+    section{padding: 80px 0}
+    .block-title {font-size: 44px; color: #1C1C1A; line-height: 54px; }
+    .small-title{font-size: 20px; line-height: 26px }
+    p{font-size: 18px;line-height:26px;}
+    .block-desc {font-size: 18px; line-height: 26px; margin-top: 20px; }
+    .theme-btn{font-size: 16px}
+    /*Home section*/
+    .home-slider-content, .banner-text{max-height: 768px; }
+    .banner-main-title {font-size: 68px; margin-top: 50px; line-height: 68px; }
+    .banner-main-title {font-size: 68px; margin-top: 50px; line-height: 68px; }
+    .subtext {font-size: 20px; line-height: 32px; margin-top: 20px; margin-bottom: 30px; }
+    .location-address, .location-mobile-no{font-size: 15px}
+    /*All page header title + Breadcrum*/
+    section.page-header{height: 400px; }
+    .page-header h1{font-size: 68px;line-height: 68px;margin-bottom:8px;}
+    .breadcrumbs li, .breadcrumbs li a {font-size: 16px; line-height: 20px;}
+    /*Menu page*/
+    .menu-tabination-outer img.tabmenu-right-img {max-height: 620px; }
+    .dish-block-outer .dish-image{max-width: 200px; }
+    .dish-block-outer .dish-image {width: 200px; height: 200px; margin-right: 30px; }
+    .dish-detail-outer {width: calc(100% - 200px); }
+    .dish-detail-outer h2 {font-size: 18px; line-height: 22px; }
+    .dish-bottom-block p{font-size: 14px; }
+    .dish-tabination .nav-pills .nav-link {font-size: 16px; margin-right: 30px; }
+    .tab-dish-img {max-width: 130px; }
+    .tab-div-block{padding: 20px}
+    .tab-dish-name {font-size: 16px}
+    .dish-tabination {margin-top: 24px; }
+    .drink-block li{margin-bottom: 20px;}
+    .drink{background-position: -150px 0;}
+    /*location page*/
+    .cafetime h4{font-size: 18px; margin-bottom: 5px; }
+    .cafetime p{font-size: 16px; margin-top: 0; line-height: 24px; }
+    .cafetoday-right div:first-child {padding-right: 20px; }
+    .plate-desc { font-size: 14px;  margin-top: 5px; line-height: 18px; }
+    .contact-form form textarea {height: 210px; }
+    /* Catering page */
+    .catering-packages{padding-bottom: 40px; }
+    .catering-extra{padding-top:40px; padding-bottom: 60px ; }
+    .cat-img{height: 125px; }
+    .catering-extra{padding-top:60px; padding-bottom: 80px ; }
+    .page-template-catering section.footer-block{padding-top: 80px; }
+    /*Our story*/
+     .restorans-image {max-width: 992px; height: 400px; }
+     .restorans-image img {width: 100%; height: 100%; object-fit: cover; border-radius: 16px; object-position: bottom; }
+     /*Rewards page*/
+     .pp-rewards,{margin: 80px 0; }
+     .rewards.feel-good{margin: 80px 0 0;}
+     .page-template-rewards section.footer-block{padding-top: 80px;}
+     .custum-footer-list ul li:not(:last-child) {margin-right: 35px; } 
+     .custum-footer-list ul li:not(:last-child):after {content: ""; right: -23px; }
+     .custum-footer-list ul li a{font-size: 16px}
+ }
+@media only screen and (max-width: 1200px) and (min-width: 1024px){
+    /*home section*/
+    .home-slider-content,
+    .banner-text{height: 80vh; }
+    .home-slider-content .col-lg-6 {width: 100%; max-width: 100%; flex: 0 0 100%; }
+    div.banner-text {height: auto; margin-top: 17%; }
+    .banner-main-title{margin-top: 0; }
+    .home-slider-content{background-size: cover; }
+    .banner-text{padding:30px; }
+    /*Location page*/
+    .block-title {font-size: 40px; line-height: 60px; }
+    .cafetoday-name,
+    .cafetoday-no {font-size: 20px; }
+    .cafetoday-right div:first-child {padding-right: 0; margin-bottom: 15px; }
+    section.page-header{height: 400px; }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1024px) and (orientation:portrait){
+    /*Home section*/
+    .home-slider-content, .banner-text {height: 50vh; }
+}
+@media only screen and (max-width: 1366px) and (orientation:portrait){
+    /*Modan popup*/
+    .modal.show .modal-dialog{transform: translatey(50%);max-width: 400px }
+ }
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+    section {padding: 60px 0; }
+    .catering-extra {padding-top: 60px; padding-bottom:60px; }
+    .block-title{font-size: 40px}
+    .small-title{font-size: 16px;line-height:20px;}
+    /*Header changes*/
+    .custom-header .navbar .navbar-nav .nav-link, .right-nav ul li a{font-size: 14px; margin-right: 30px; }
+    .custom-header .navbar .navbar-nav .nav-link:not(:last-child):after, 
+    .right-nav ul li:not(:last-child) a:after {right: -16px; }
+    .instagram .block-title{margin-bottom:15px;}
+    /*Banner section*/
+    .banner-text {height: auto; margin: 50px 0; background: #ffffffc2; padding: 20px;border-radius: 30px }
+    .banner-main-title{font-size: 60px;line-height:60px;}
+    /*Rewawrding section*/
+    .food-list li {width: calc(100% / 4 - 5px); position: static; }
+    .food-list li:nth-child(3) {position: static; }
+    .food-list li:nth-child(5) {position: static;}
+    .food-list li img{max-width: 135px;transform: scale(1); }
+    .food-type-images {bottom: 0; margin-bottom: 0; }
+    .food-list{height: auto; }
+    /*Menu page*/
+    .dish-detail-outer {width: calc(100% - 130px); }
+    .dish-block-outer .dish-image{max-width:130px}
+    .dish-detail-outer h2{font-size: 18px;line-height:22px;}
+    .menu-block-outer {margin-top: 60px; }
+    .dish-tabination ul#pills-tab li a { font-size: 16px;  margin-bottom: 14px; }
+    .drink-block li:not(:last-child) {margin-bottom: 20px; }
+    /*New Rewards page*/
+    .welcome-rewards .block-title {font-size: 24px; line-height: 30px; }
+ }
+@media only screen and (min-width: 992px){
+    .desktop-hide{display: none; } 
+}
+@media only screen and (max-width: 991px) {
+    /*mobile menu*/
+    .mobile-nav .menu-item-has-children:hover>ul.sub-menu,
+.mobile-nav .menu-item-has-children:focus>ul.sub-menu{visibility: hidden; z-index: 9999999; }
+.menu-item-has-children.active>ul.sub-menu {visibility: visible !important; z-index: 9999999; position: static; }
+.mobile-nav .content{width: 80%; min-width: 300px; }
+.mobile-nav .content ul.sub-menu {padding: 10px; }
+.mobile-nav .content ul.sub-menu li{margin: 5px; }
+.mobile-nav .content ul.sub-menu a.nav-item.nav-link {font-size: 18px; margin-bottom: 0; transition: none; }
+    /* Common */
+    p{font-size: 14px; line-height: 18px;}
+     .breadcrumbs li, .breadcrumbs li a {font-size: 14px; line-height: 16px; }
+    .small-title {font-size: 14px; line-height: 18px; }
+    .subtext {font-size: 14px; line-height: 18px; margin-top: 10px; margin-bottom: 22px; }
+    .theme-btn {font-size: 14px; border-radius: 30px; height: 45px; line-height: 45px; padding: 0 15px; }
+    .footer, section {padding: 30px 0; }
+    .block-title {font-size: 24px; line-height: 28px; }
+    .menu-block .block-title {margin-bottom: 30px;font-size: 26px;line-height: 30px }
+    .block-desc {font-size: 14px; line-height: 18px; margin-top: 15px; } 
+    .title-block{padding: 0 15px}
+    .block-btn-group {margin-top: 25px; }
+    .mobile-hide{display: none;}
+    .mobile-nav .menu-item-has-children:after {top: 18px; bottom: initial; margin: auto; }
+    .fixed-header .logo {max-width: 75px; }
+    .btn-outer.desktop-hide {    position: absolute; right: 68px; top: 0; bottom: 0; display: flex; align-items: center; }
+     /*Navbar*/
+    .right-nav ul li a {margin-right: 40px; }
+    .right-nav>ul li {margin-top: 10px; }
+    .center-nav{text-align: left;}
+    div#navbarNavAltMarkup ul#menu-main-menu li a:after {display: none; }
+    div#navbarNavAltMarkup {order: 4; margin-top: 20px;}
+    div#navbarNavAltMarkup .menu-main-menu-container{background: #fff; padding: 10px; border-radius: 10px;margin-bottom:15px }
+    div#navbarNavAltMarkup .menu-main-menu-container,
+    div#navbarNavAltMarkup ul#menu-main-menu ,
+    div#navbarNavAltMarkup ul#menu-main-menu li {display: block !important; width: 100%; }
+    div#navbarNavAltMarkup ul#menu-main-menu li a.nav-item.nav-link {margin-right: 0; padding: 3px 0; }
+    .navbar-light .navbar-toggler{border-color:transparent; } 
+    .custom-header nav.navbar .container {position: relative; }
+    .navbar-light .navbar-toggler {position: absolute; right: 5px; top: 0; z-index: 9; bottom: 0;} .logo {max-width: 100px; }
+    .newsletter form#mc4wp-form-1 input[type="email"] {min-width: 300px; max-width: 500px; width: 100%; }
+    .custom-header nav.navbar {padding: 8px 0px; }
+    .custom-header {position: static; }
+    .fixed-header {position: fixed; }
+    /*rewarding section*/
+    .rewarding{background-image: none;padding-bottom: 30px;}
+    .food-type { margin: 50px 0; padding: 0 15px; }
+    .food-type .text-center { margin-bottom: 10px; }
+    .food-type .block-btn-group {margin-top: 15px; }
+    .f-icon-outer {width: 23px; height: 26px; display: inline-block; vertical-align: middle;margin-bottom: 5px; }
+    .f-icon-outer img{width: 100%; height: 100%; object-fit: contain;}
+    .f-type-name { margin-left: 12px; margin-bottom: 0px;font-size: 14px;font-weight: 700;line-height: 20px }
+    .food-type-images {z-index: 0; position: static; bottom: 0; margin-bottom: 0; }
+    .food-list {display: block; height: auto; } 
+    .food-list li img{max-width: 135px;transform: scale(1); }
+    .food-list li {width: calc(100% / 4 - 5px); position: static; }
+    .food-list li:nth-child(3),.food-list li:nth-child(2),.food-list li:nth-child(5),.food-list li:nth-child(6) {text-align: center; }
+     .food-list li:nth-child(3), .food-list li:nth-child(5){position: static;}
+     /*Home section*/
+    .banner-main-title {font-size: 26px; margin-top: 0; line-height: 30px; }
+    .banner-text {height: auto; margin: 50px 0;     background: rgb(255, 255, 255 , 0.7); padding: 20px;border-radius: 30px; }
+    .home-slider-content {background-size: cover; }
+    /*location section*/
+    .home-slider-content{height: auto;}
+    section.location {padding-bottom: 0; }
+    .location-name{margin-top: 14px; margin-bottom: 4px; font-size: 20px;}
+    .location-address, .location-mobile-no{line-height: 22px}
+    .location .title-block .block-title {margin-bottom: 40px; }
+    .action-block {margin-bottom: 20px; } 
+    .location-img-outer{height: 260px}
+    /*Footer*/
+    section.footer-block {padding-top: 30px; }
+    .custum-footer-list ul li:not(:last-child):after{display: none; }
+    .custum-footer-list ul li:not(:last-child) {margin-right: 10px; }
+    .custum-footer-list ul li a{font-size: 14px}
+    .custum-footer-list ul {margin-top: 15px; margin-bottom: 15px; }
+    /*Location page*/
+    section.page-header {min-height: 180px; height: auto; }
+    .page-header h1 {font-size: 34px; line-height: initial; margin-bottom: 2px; margin-top: 0; }
+    .cafetoday{padding: 15px; }
+    .cafetoday-name:before{background-size: 15px; left: -35px; }
+    .cafetoday-no:before {left: -38px; background-size: 18px; }
+    .cafetoday-name{font-size: 20px; }
+    .cafetoday-no {font-size: 20px; margin-bottom:20px; margin-top: 15px;}
+    .cafetoday-right div:first-child {padding-right: 0; margin-bottom: 25px; }
+    .contact-form {margin-top: 50px; }
+    .form-outer{padding: 15px; }
+    form input{width: 100%; }
+    input[type=submit]{width: auto; }
+    /* careers page */
+    section.Careers-page {padding-bottom: 20px; }
+    .careers-form form label{margin-bottom: 10px; }
+    .careers-form .wpcf7-form-control-wrap{margin-top: 5px }
+   /* Menupage*/
+    .menu-block{padding:30px;margin-bottom: 30px;}
+    .menu-block-outer {margin-top: 30px;}
+    section.food-menu{padding-bottom: 30px;}
+    section.own-plate {padding-top: 30px; }
+    .tab-content {margin-top: 20px; }
+    .tab-dish-img{margin-bottom: 20px;}
+    .dish-tabination {margin-top: 20px; }
+    .dish-tabination ul#pills-tab li a { font-size: 14px;  margin-bottom: 14px; margin-right: 22px; }
+    .menu-tabination-outer img.tabmenu-right-img{display: none;}
+    .kidsmenu{background-position:left}
+    .drink{background-position: center;}
+    .drinkouter,.kids-menu-outer{background: rgb(255, 255, 255 , 0.7); padding: 30px; border-radius: 30px;}
+    /* catering Page */
+    .cart-block{background-image:url("/wp-content/themes/pitapita/assets/images/bg-image.png");padding:30px 0;margin-top: 30px;}
+    .catering-package-img {margin: 20px 0; }
+    /* .cat-item-list{margin-bottom: 30px;}*/
+    .cat-item-list{padding: 20px}
+    .cat-item-title{font-size: 18px;margin-bottom:10px;}
+    .cat-item li {font-size: 14px; line-height: 26px; }
+    .catering-packages {padding-bottom: 30px; }
+    .catering-extra{padding-top:30px;padding-bottom:30px; }
+    .catering-packages .block-title {margin-bottom: 20px; }
+    .catering-extra .small-title {margin-top: 16px; }
+    .page-template-catering section.footer-block{padding-top: 30px; }
+    .dish-tabination ul {display: inline-block; width: 95%; overflow: auto; max-width: 100%;position: relative;z-index: 2;margin:0 auto;padding: 0 10px }
+    .tab-shadow {position: relative; width: 100%; display: block; top: 12px; z-index: 0;}
+    .dish-tabination .tab-shadow:before {content: ""; position: absolute; height: 39px; width: 1px; background: black; top: 0; bottom: 0; margin: auto 0; left: -1px; opacity: 7; filter: blur(2px); }
+    .dish-tabination .tab-shadow:after {content: ""; position: absolute; height: 39px; width: 1px; background: black; top: 0; bottom: 0; margin: auto 0; right: -1px; opacity: 7; filter: blur(2px); }
+    .dish-tabination ul li {display: table-cell; min-width: 140px;text-align: center; }
+    .contact-locations .location-address, .contact-locations .location-mobile-no{font-size: 14px; }
+    .contact-locations .option {text-align: center; display: flex; flex-direction: column; }
+    /*404 page*/
+    .error-container{font-size: 100px; }
+    .error-container img {max-width: 100px; }
+    section.not-found {height: 400px; margin-top: 0;}
+    /*Our Story Section*/
+    .restorans-image img{width: 100%; height: 100%; object-fit: cover; border-radius: 16px }
+    .about-img-outer{margin-bottom: 20px;}
+    .our-restorans{padding: 30px 0}
+    /*Our story*/
+     .restorans-image {height: 300px; max-width: 400px; }
+     /*Rewards Page*/
+     .pp-rewards{margin: 30px 0;background-position: left;}
+     .rewards.feel-good{margin:30px 0}
+     .rewards-main {background: rgb(255, 255, 255 , 0.8); padding: 30px; border-radius: 30px; }
+     .email-form .block-btn-group {margin-top: 20px; }
+     .page-template-rewards section.footer-block{padding-top: 30px;}
+     /*Order page*/
+     .l-address .address {padding-left: 40px; margin-bottom: 0px; }
+     .l-address .block-btn-group .theme-btn {min-width: initial; width: 100%; }
+     /*New Rewards Page*/
+     .welcome-rewards .block-title {font-size: 24px; line-height: 28px; }
+     .reward-offer-list span {font-size: 12px; line-height: 28px; }
+     .app-btn img {height: 35px; }
+     .step-desc{font-size: 14px}
+     .no-phone { font-size: 14px; text-align: center; }
+     /*Faq page*/
+     .faq-q{font-size: 16px;line-height: 24px,margin-bottom:5px;}
+     .faq-a {font-size: 14px; line-height: 24px; }
+     .faq-block{margin-bottom: 0;}
+    /*Location Popup*/
+    .popup-overlay{width: calc(100% - 50px); height: calc(100% - 50px); }
+    .popup-overlay .block-title {font-size: 18px;line-height: 24px }
+    .modal.show .modal-dialog{max-width: 350px;margin:0 auto;}
+ }
+@media only screen and (max-width: 992px) and (min-width: 768px){
+    .wpcf7-form .wpcf7-checkbox input[type=checkbox] + span:after{top:3px;left: 6px}
+    .wpcf7-form .wpcf7-checkbox input[type=checkbox] + span:before {margin: auto 0; top: 0px; bottom: 0;  }
+}
+@media only screen and (max-width: 1100px) and (min-width: 768px){
+    .f-icon-outer{width: 20px; }
+    .f-type-name {font-size: 16px; margin-bottom: 0; }
+}
+@media only screen and (max-width: 767px){
+    .food-list li {width: calc(100% / 3 - 5px); position: static; }
+    .breadcrumbs li:not(:last-child):after {content: ""; vertical-align: middle; background-image: url(/wp-content/themes/pitapita/assets/images/breadcrumbs arrow.svg); padding-left: 3px; background-size: 6px; width: 10px; height: 10px; right: -1px; z-index: 9999; top: 0; bottom: 0; margin: auto; position: absolute; background-repeat: no-repeat; }
+    /* ========================
+            Career page
+    =========================== */
+    span.wpcf7-list-item {display: block; margin-left: 0; margin-bottom: 10px; }
+    form label{margin-bottom: 20px;} 
+    /*Menu page*/
+    .dish-detail-outer {width: calc(100% - 170px); }
+    .dish-list li:nth-child(even) .dish-detail-outer{text-align: left;}
+    .dish-detail-outer h2 {font-size: 16px; line-height: 18px; margin-bottom: 8px; }
+    .dish-detail-outer p {font-size: 14px; line-height: 18px; }
+    .extra-setion-block>* {display: block; width: 100%; text-align: center; margin: 0 auto; }
+    .extra-setion-block .extra-img{margin-bottom: 10px;}
+    .extra-dish-name {margin-bottom: 10px;margin-top: 20px; }
+    .drink-block li:not(:last-child) {margin-bottom: 20px; }
+    .drink-block li p {display: block; font-size: 16px;margin: 5px 0; margin-bottom: 0; font-weight: bold; margin: 0 auto; width: 100%; text-align: center; }
+    .drinkouter .block-title {text-align: center }
+    /*Catering Page*/
+    .cat-cart{height: auto; margin-bottom: 30px}
+    .cat-cart:hover, .cat-cart:hover .cat-img img {transform: scale(1.02); }
+    .contact-locations .location-address, .contact-locations .location-mobile-no{font-size: 16px}  
+      .option:not(:last-child) .option--cta {margin-bottom: 30px; }
+    .contact-locations .option {margin-bottom: 20px;}
+    .plates-services{font-size: 12px}
+    .plates-type {font-size: 14px;margin-bottom: 5px;  }
+    /*Our story*/
+     .restorans-image {height: 200px; max-width: 350px; }
+     /*Rewards Page*/
+     .email-form .block-btn-group button {margin-bottom: 10px; width: 100%; margin-right: 0; }
+     .pp-rewards{background-position: left; }
+     .feel-good{background-position: right; }
+     .feel-good .title-block {background: rgb(255, 255, 255 , 0.8); padding: 30px; border-radius: 30px; }
+      /* new rewards page*/
+      .welcome-img img {border-radius: 16px; margin-bottom: 40px; }
+ }
+@media only screen and (max-width: 550px) {
+    .logo {max-width: 80px; }
+    .custom-header nav.navbar {padding: 4px 0px; }
+    .food-list li {width: calc(100% / 2 - 5px); position: static; }
+     /*Menu page*/
+    .dish-block-outer{display: block; }
+    .dish-block-outer .dish-image,.dish-list li:nth-child(even) .dish-image { margin-right: 0; margin: 0 auto; display: block; margin-bottom: 25px; }
+    .dish-block-outer>div{display: block;text-align: center;}
+    .dish-list li:nth-child(even) .dish-detail-outer{text-align: center;}
+    .dish-detail-outer{width: 100%}
+    /*404 page*/
+    .error-container {font-size: 60px; }
+    .restorans-image {height: 200px; max-width: 200px; }
+    /*Order page*/
+    .l-address .block-btn-group .theme-btn {max-width: 250px }
+    /*catering page*/
+    .table-menu tbody tr td {min-width: initial; width: auto; vertical-align: top;    vertical-align: middle;padding: 10px 0; }
+    .table-menu tbody tr td:first-child {min-width: initial; width: auto; }
+    .plate-price {font-size: 14px; }
+    .plate-name {font-size: 14px; }
+    /*Giftcard page*/
+    section.get-started .block-btn-group a:first-child {margin-bottom: 20px; }
+}
+@media only screen and (max-width: 360px) {
+    .right-nav .order-now {margin-left: 5px; }
+    .right-nav>ul li {margin-top: 12px; margin-right: 4px; }
+    .right-nav ul li a{font-size: 14px; padding-right: 0; }
+    /*new rewards page*/
+    .reward-offer-list.text-center {min-width: initial; width: 100%; padding:10px}
+}
