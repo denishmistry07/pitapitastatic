@@ -2,7 +2,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('/wp-content/themes/pitapita/assets/images/ajax-loader.gif') center center no-repeat;
+    background: #fff url('wp-content/themes/pitapita/assets/images/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -12,8 +12,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('/wp-content/themes/pitapita/assets/font/slick.eot');
-    src: url('/wp-content/themes/pitapita/assets/font/slick.eot#iefix') format('embedded-opentype'), url('/wp-content/themes/pitapita/assets/font/slick.woff') format('woff'), url('/wp-content/themes/pitapita/assets/font/slick.ttf') format('truetype'), url('/wp-content/themes/pitapita/assets/font/slick.svg#slick') format('svg');
+    src: url('wp-content/themes/pitapita/assets/font/slick.eot');
+    src: url('wp-content/themes/pitapita/assets/font/slick.eot#iefix') format('embedded-opentype'), url('wp-content/themes/pitapita/assets/font/slick.woff') format('woff'), url('wp-content/themes/pitapita/assets/font/slick.ttf') format('truetype'), url('wp-content/themes/pitapita/assets/font/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,
